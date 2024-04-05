@@ -1,0 +1,137 @@
+(footprint "WE-VE_FEMTOF_0402"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WE-VE femtoF ESD Suppressor\nSize  : 0402\nL X W X H = 1mm X 0.5mm X 0.6mm")
+	(property "Reference" "REF**"
+		(at -1.5 0.4 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "427f53b0-19d1-4e24-bcf1-9bc5028f63d2")
+		(effects
+			(font
+				(size 0.777567 0.777567)
+				(thickness 0.022433)
+			)
+			(justify top)
+		)
+	)
+	(property "Value" "8231706A"
+		(at -2.8 -0.28 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ae31b2ee-2fa5-434d-837c-3ca129e35730")
+		(effects
+			(font
+				(size 0.677567 0.677567)
+				(thickness 0.022433)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea7e60c5-1cb8-4f90-9ea1-6dba368056cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd7b317f-f8a2-41aa-8bd6-245479aa62ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b36eb35-efb3-431f-9967-9dc8f68575ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy 1 0.6) (xy -1 0.6) (xy -1 -0.6) (xy 1 -0.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "cf58779b-c8d9-4a6e-8a81-60f8f05135d8")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5cb1cfa1-647f-43df-a630-c533f1e46f06")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5ce8b3b-0e98-46b9-8c1e-b55a8fedca9a")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbf9639b-4e2f-4690-8c88-267d8d8f4423")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aca03169-f281-428c-bf31-f61addd8c5bb")
+	)
+	(pad "1" smd rect
+		(at -0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "16e7dfd4-8842-4059-9d8c-5e3d685c5614")
+	)
+	(pad "2" smd rect
+		(at 0.5 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "fd1a2f11-b064-4d04-ba52-ef2249111462")
+	)
+)

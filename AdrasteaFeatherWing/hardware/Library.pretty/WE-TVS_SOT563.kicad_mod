@@ -1,0 +1,208 @@
+(footprint "WE-TVS_SOT563"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TVS Diode Array WE-TVS")
+	(property "Reference" "REF**"
+		(at 1.853 1.065 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9471d1d6-9f8f-4e84-9a51-4a74b5bbb24a")
+		(effects
+			(font
+				(size 0.763424 0.763424)
+				(thickness 0.036576)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "82400152"
+		(at -0.307 -6.345 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "84e91880-cb85-4bd0-9aec-1d0d17bf8e13")
+		(effects
+			(font
+				(size 0.663424 0.663424)
+				(thickness 0.036576)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96e49aba-b12f-42f8-a70e-935ce203d73a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43b6236f-5e81-4cb7-9e2a-a35e16e36e7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7e4b819-d1ba-4e04-9bd8-2b91be11e361")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start 0.6 0.8)
+		(end -0.6 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c4c8e31-ec7c-4fc2-a95c-df900bea9c58")
+	)
+	(fp_line
+		(start 0.6 -0.8)
+		(end -0.6 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4284941a-e024-4cca-8029-13acadc68e41")
+	)
+	(fp_circle
+		(center -0.233 -0.465)
+		(end -0.213 -0.465)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "486a2070-1524-4b79-9710-34d59470623f")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3480089-68cc-48f7-a745-d72d6d6b3e9a")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ef2f527-2433-4bfa-833f-01167b93e9e5")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2778968-68b1-467c-b66d-fd721df2e877")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73a3a65c-a425-4fa0-a194-e263ce217a32")
+	)
+	(fp_line
+		(start 0.6 -0.8)
+		(end 0.6 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47d48ccb-264e-488a-b163-e98112c65614")
+	)
+	(fp_line
+		(start -0.6 0.8)
+		(end -0.6 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ed61321-fedf-47cb-a8af-14e7d820369b")
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.5 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "14826f62-0f3c-4ae3-a4a7-360418496d63")
+	)
+	(pad "2" smd rect
+		(at -0.7 0 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "8ac4c6af-36cb-4688-86c7-6d6c04fef62e")
+	)
+	(pad "3" smd rect
+		(at -0.7 0.5 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "65fb9112-7fc6-419c-b168-226aa3f5a676")
+	)
+	(pad "4" smd rect
+		(at 0.7 0.5 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "38bac2db-ec12-467c-be9b-ce0672e2f07a")
+	)
+	(pad "5" smd rect
+		(at 0.7 0 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "97733c93-7f60-4c90-abd3-d0b7358818e1")
+	)
+	(pad "6" smd rect
+		(at 0.7 -0.5 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "3103f31f-bf1e-4356-ae52-8ac190bc67b5")
+	)
+)
